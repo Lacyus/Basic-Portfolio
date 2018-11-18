@@ -1,0 +1,128 @@
+/* Top portion of pages */
+header {
+    border-bottom: solid 4px rgb(76, 175, 175);
+    width: 100%;
+}
+
+h1 {
+    background-color: rgb(76, 175, 175);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 0 0;
+    color: white;
+    display: block;
+    float: left;
+    position: relative;
+    left: 15%;
+}
+
+h2{
+    display: block;
+    color: rgb(76, 175, 175);
+    text-align: left;
+}
+/* Allows center portion to span max height of the screen */
+.site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/* Center background of the middle portion of the pages */
+.container{
+    flex: 1;
+    background-image:url("../images/concrete-texture.png");
+    text-align: center;
+    background-size: cover;
+}
+/* Center portion for text, images, contact */
+.content{
+    width: 70%;
+    height: 70%;
+    background: white;
+    border: solid 2px rgb(76, 175, 175);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+/* Bottom footer of all pages */
+#copyright {
+    color: white;
+    text-align: center;
+    background-color: grey;
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    padding: 15px 15px 0 15px;
+    font-size: 18px;
+    border-top: solid 4px rgb(76, 175, 175);
+}
+
+.nav {
+    display: block;
+    float: right;
+    width: 35%;
+    padding: 10px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    color: black;
+    }
+
+#tnav a:hover {
+    background-color: rgb(153, 152, 152);
+}
+/* Shows what current page user is on in nav */
+.active {
+    background-color: rgb(76, 175, 175);
+    color: white;
+}
+
+p {
+    text-align: left;
+}
+/* Horizontal line to break sub header away from content */
+hr{
+    border-width: 1px;
+}
+
+.profile-img {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+}
+/* CSS for contact form */
+.contact{
+    text-align: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* submit button with a specific background color */
+input[type=submit] {
+    background-color: rgb(76, 175, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(44, 131, 131);
+}
