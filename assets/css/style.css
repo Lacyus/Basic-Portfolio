@@ -126,3 +126,21 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgb(44, 131, 131);
 }
+/* Div to hold images for gallery */
+.gallery-img {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+/* Names for portfolio gallery at bottom of images */
+.name{
+    position: absolute;
+    width: 300px;
+    bottom: 15px;
+    text-align: center;
+    background-color: rgb(76, 175, 175);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+}
