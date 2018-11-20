@@ -34,10 +34,11 @@ h2{
     background-image:url("../images/concrete-texture.png");
     text-align: center;
     background-size: cover;
+
 }
 /* Center portion for text, images, contact */
 .content{
-    width: 70%;
+    width: 960px;
     height: 70%;
     background: white;
     border: solid 2px rgb(76, 175, 175);
